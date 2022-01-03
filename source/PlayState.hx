@@ -641,6 +641,7 @@ class PlayState extends MusicBeatState
 		useVictoryScreen = !OptionsHandler.options.skipVictoryScreen;
 		downscroll = OptionsHandler.options.downscroll;
 		useSongBar = OptionsHandler.options.showSongPos;
+		hitsounds = OptionsHandler.options.hitsouunds;
 		Judge.setJudge(cast OptionsHandler.options.judge);
 		pixelUI = uiSmelly.isPixel;
 		if (!OptionsHandler.options.skipModifierMenu) {
