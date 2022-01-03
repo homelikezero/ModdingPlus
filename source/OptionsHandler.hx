@@ -45,10 +45,10 @@ typedef TOptions = {
     var allowStoryMode:Bool;
     var allowFreeplay:Bool;
     var allowDonate:Bool;
-    var hitSounds:Bool;
     var titleToggle:Bool;
     var fpsCap:Int;
     var ignoreVile:Bool;
+    var hitsounds:Bool;
 }
 /**
  * All options that can display on the savedatamenu. Used with mask
@@ -117,7 +117,7 @@ class OptionsHandler {
             lastOptions.allowStoryMode = true;
             lastOptions.allowFreeplay = true;
             lastOptions.allowDonate = false;
-            lastOptions.hitSounds = false;
+            lastOptions.hitsounds = false;
             lastOptions.titleToggle = true;
             lastOptions.fpsCap = 60;
 
