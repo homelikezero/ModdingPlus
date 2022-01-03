@@ -28,4 +28,5 @@
     "allowDonate": true,
     "fpsCap": 60,
     "titleToggle": true
+    "hitsounds": false
 }
